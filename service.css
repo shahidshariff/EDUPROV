@@ -53,7 +53,7 @@ h6 {
 
 #services .btn-primary {
 	color: #fff;
-	background-color: #9b32a8;
+	background-color: #343A40;
 	border: none;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -91,7 +91,7 @@ h6 {
 .card-items .card .card-body i {
 	border-radius: 6px;
 	font-size: 31px;
-	color: #9b32a8;
+	color: #343A40;
 	background-color: #ff57221c;
 	width: 50px;
 	height: 50px;
@@ -113,7 +113,7 @@ h6 {
   overflow: hidden;
   text-align: center;
   z-index: 99999999;
-    background-color: #7b1fa2 ;
+    background-color: #343A40;
   color: #eeeeee;
   width: 50px;
   height: 48px;
