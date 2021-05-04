@@ -234,89 +234,6 @@ h6 {
 
 
 
-/* Our Services */
-.icon-box {
-  position: relative;
-  display: block;
-  padding: 40px 20px 30px;
-  -webkit-transition: all .25s cubic-bezier(.645, .045, .355, 1);
-  -o-transition: all .25s cubic-bezier(.645, .045, .355, 1);
-  transition: all .25s cubic-bezier(.645, .045, .355, 1);
-  border-radius: 5px;
-  z-index: 99;
-  text-decoration: none
-}
-
-.col-md-4 {
-  margin-top: 10px
-}
-
-.icon-box .icon {
-  margin-bottom: 24px
-}
-
-.icon-box:hover {
-  z-index: 1;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, .1);
-  box-shadow: 0 0 40px rgba(51, 51, 51, .1)
-}
-
-.icon-box .content .title.fz-20 {
-  font-size: 20px
-}
-
-.icon-box .content .title {
-  font-size: 24px;
-  line-height: 1.5;
-  margin: 0;
-  color: #3f3a64
-}
-
-.icon-box .content .desc {
-  margin-top: 10px
-}
-
-.icon-box .content .desc p {
-  line-height: 1.6;
-  color: #696969
-}
-
-p:last-child {
-  margin-bottom: 0
-}
-
-.icon-box:hover .content .link {
-  color: #32ad49;
-}
-
-.icon-box .content .link {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 34px;
-  padding: 5px 0;
-  color: #8c89a2
-}
-
-.icon-box .content .link i {
-  font-size: 16px;
-  line-height: 14px;
-  margin-left: 14px
-}
-
-/* Our Services End */
-
-/* Testimonial Start */
-
-
-
 .testimonials-clean {
   color: #313437;
   background-color: #eef4f7;
@@ -415,7 +332,7 @@ p:last-child {
 
 /* Testimonial End */
 /* Video card */
-body {
+/*body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: 'Roboto', sans-serif;
@@ -549,7 +466,7 @@ a:hover {
 .video-testimonial-block .video-play:hover::before {
   color: #172651;
 }
-
+ */
 .mb10 {
   margin-bottom: 10px;
 }
@@ -602,7 +519,7 @@ p {
   box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 
-.search-input input {
+/*.search-input input {
   height: 45px;
   width: 100%;
   outline: none;
@@ -659,128 +576,7 @@ p {
   font-size: 20px;
   color: #20bf55;
   cursor: pointer;
-}
-
-h2{
-	text-align:center;
-	padding: 20px;
-  }
-  /* Slider */
-  
-  .slick-slide {
-	  margin: 0px 20px;
-  }
-  
-  .slick-slide img {
-	  width: 100%;
-  }
-  
-  .slick-slider
-  {
-	  position: relative;
-	  display: block;
-	  box-sizing: border-box;
-	  -webkit-user-select: none;
-	  -moz-user-select: none;
-	  -ms-user-select: none;
-			  user-select: none;
-	  -webkit-touch-callout: none;
-	  -khtml-user-select: none;
-	  -ms-touch-action: pan-y;
-		  touch-action: pan-y;
-	  -webkit-tap-highlight-color: transparent;
-  }
-  
-  .slick-list
-  {
-	  position: relative;
-	  display: block;
-	  overflow: hidden;
-	  margin: 0;
-	  padding: 0;
-  }
-  .slick-list:focus
-  {
-	  outline: none;
-  }
-  .slick-list.dragging
-  {
-	  cursor: pointer;
-	  cursor: hand;
-  }
-  
-  .slick-slider .slick-track,
-  .slick-slider .slick-list
-  {
-	  -webkit-transform: translate3d(0, 0, 0);
-		 -moz-transform: translate3d(0, 0, 0);
-		  -ms-transform: translate3d(0, 0, 0);
-		   -o-transform: translate3d(0, 0, 0);
-			  transform: translate3d(0, 0, 0);
-  }
-  
-  .slick-track
-  {
-	  position: relative;
-	  top: 0;
-	  left: 0;
-	  display: block;
-  }
-  .slick-track:before,
-  .slick-track:after
-  {
-	  display: table;
-	  content: '';
-  }
-  .slick-track:after
-  {
-	  clear: both;
-  }
-  .slick-loading .slick-track
-  {
-	  visibility: hidden;
-  }
-  
-  .slick-slide
-  {
-	  display: none;
-	  float: left;
-	  height: 100%;
-	  min-height: 1px;
-  }
-  [dir='rtl'] .slick-slide
-  {
-	  float: right;
-  }
-  .slick-slide img
-  {
-	  display: block;
-  }
-  .slick-slide.slick-loading img
-  {
-	  display: none;
-  }
-  .slick-slide.dragging img
-  {
-	  pointer-events: none;
-  }
-  .slick-initialized .slick-slide
-  {
-	  display: block;
-  }
-  .slick-loading .slick-slide
-  {
-	  visibility: hidden;
-  }
-  .slick-vertical .slick-slide
-  {
-	  display: block;
-	  height: auto;
-	  border: 1px solid transparent;
-  }
-  .slick-arrow.slick-hidden {
-	  display: none;
-  }
+} */
 
   #footer-url{
   text-decoration: none;
