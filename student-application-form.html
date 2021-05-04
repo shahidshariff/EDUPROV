@@ -62,12 +62,14 @@
       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         
         <div class="navbar-nav ml-auto ">
-          <a href="index.html" class="nav-item text-white nav-link active"><i class="fa fa-home"></i> Home</a>
-          <a href="about.html" class="nav-item text-white nav-link active"><i class="fa fa-info-circle"></i> About</a>
-          <a href="contact.html" class="nav-item text-white nav-link"><i class="fa fa-phone-square"></i> Contact</a>
-          <a href="" class="nav-item text-white nav-link active"><i class="fa fa-university"></i> Admission</a>
-          <a href="" class="nav-item text-white nav-link active"><i class="fa fa-users"></i> Counselling</a>
-          <a href="" class="nav-item text-white nav-link active"><i class="fa fa-globe"></i> Study Abroad</a>
+          <div class="navbar-nav ml-auto ">
+            <a href="index.html" class="nav-item text-white nav-link active"><i class="fa fa-home"></i> Home</a>
+            <a href="contact-form.html" class="nav-item text-white nav-link"><i class="fa fa-phone-square"></i> Contact</a>
+            <a href="student-application-form.html" class="nav-item text-white nav-link"><i class="fa fa-user"></i> Student Form</a>
+            <a href="#" class="nav-item text-white nav-link active"><i class="fa fa-university"></i> Admission</a>
+            <a href="#" class="nav-item text-white nav-link active"><i class="fa fa-users"></i> Counselling</a>
+            <a href="#" class="nav-item text-white nav-link active"><i class="fa fa-globe"></i> Study Abroad</a>
+          </div>
         </div>
    
       </div>
@@ -84,14 +86,17 @@
     <div class="container text-white">
       <div class="row">
         <div class="col-md-8 mt-5 pt-5">
-         <h1>Contact Form</h1>
+         <h1>Student Application Form</h1>
         </div>
       </div>
     </div>
   </div>
+
+
      
 
   <!--Contact Form Start-->
+  <form class="row g-3 needs-validation" novalidate>
   <div class="container mt-2">
     <!--container start-->
     <div class="row">
@@ -109,105 +114,59 @@
           <div class="card-body">
             <div class="row form-group">
               <div class="col-lg-12">
-                <label>Student Name <font color="red">*</font></label>
-                <input type="text" class="form-control" />
+                <label for="validationCustom01" class="form-label">Student Name </label>
+                <input type="text"  class="form-control" id="validationCustom01"  required/>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
               </div>
             </div>
             <div class="row form-group">
               <div class="col-lg-6">
-                <label>Email</label>
-                <input type="email" class="form-control" />
+                <label for="validationCustom02" class="form-label">Email</label>
+                <input type="email" class="form-control" id="validationCustom02"  required />
               </div>
               <div class="col-lg-6">
-                <label>Mobile No</label>
-                <input type="text" class="form-control" />
+                <label for="validationCustom03" class="form-label">Mobile No</label>
+                <input type="number" class="form-control" id="validationCustom03" required />
+                <div class="invalid-feedback">
+                  Please provide a valid Number.
+                </div>
               </div>
             </div>
 
             <div class="row form-group">
-              <div class="col-md-4">
-                <label>Date of Birth <font color="red">*</font></label>
-                <select class="form-control">
-                  <option>Day</option>
-                  <option>01</option>
-                  <option>02</option>
-                  <option>03</option>
-                  <option>04</option>
-                </select>
-              </div>
-
-              <div class="col-md-4 mt-4 p-2">
-                <select class="form-control">
-                  <option>Month</option>
-                  <option>January</option>
-                  <option>February</option>
-                  <option>March</option>
-                  <option>April</option>
-                  <option>May</option>
-                </select>
-              </div>
-
-              <div class="col-md-4 mt-4 p-2">
-                <select class="form-control">
-                  <option>Year</option>
-                  <option>2001</option>
-                  <option>2002</option>
-                  <option>2003</option>
-                  <option>2004</option>
-                </select>
+              <div class="col-md-12" for="validationCustom04" class="form-label">
+                <input type="date" class="form-control" id="validationCustom04" required/>
+                <div class="invalid-feedback">
+                  Please Choose your DOB
+                </div>
               </div>
 
               <div class="col-md-6 mt-4">
-                <label>Gender</label>
-                <select class="form-control">
-                  <option>Choose</option>
+                <label for="validationCustom11" class="form-label">Gender</label>
+                <select  class="form-control" class="form-select" id="validationCustom11" required>
+                  <option selected disabled value="">Choose</option>
                   <option>Male</option>
                   <option>Female</option>
+                  <option>Prefer not to say</option>
                 </select>
               </div>
 
+              
+
+              
               <div class="col-md-6 mt-3 p-2">
-                <label>Nationality</label>
-                <input type="text" class="form-control" />
+                <label for="validationCustom05" class="form-label">Academic Details</label>
+                <input type="text"  class="form-control" id="validationCustom05" required />
               </div>
-
-              <div class="col-md-4 mt-3 p-1">
-                <label>Caste<font color="red">*</font></label>
-                <select class="form-control">
-                  <option>Choose</option>
-                  <option>SC</option>
-                  <option>ST</option>
-                  <option>OBC</option>
-                  <option>OTHERS</option>
-                </select>
+              <div class="col-lg-6 mt-4">
+                <label for="validationCustom06" class="form-label">Extra Curricular Activities</label>
+                <input type="text" class="form-control" id="validationCustom06" required/>
               </div>
-
-              <div class="col-md-4 mt-3 p-1">
-                <label>Country</label>
-                <input type="text" class="form-control" />
-              </div>
-
-              <div class="col-md-4 mt-3 p-1">
-                <label>State</label>
-                <input type="text" class="form-control" />
-              </div>
-
-              <div class="col-md-6 mt-4">
-                <label>City</label>
-                <input type="text" class="form-control" />
-              </div>
-
-              <div class="col-md-6 mt-3 p-2">
-                <label>Academic Details</label>
-                <input type="text" class="form-control" />
-              </div>
-              <div class="col-lg-12 mt-2">
-                <label>Extra Curricular Activities</label>
-                <input type="text" class="form-control" />
-              </div>
-              <div class="col-lg-12 mt-2">
-                <label>Preferred Course</label>
-                <input type="text" class="form-control" />
+              <div class="col-lg-6 mt-4">
+                <label for="validationCustom07" class="form-label">Preferred Course</label>
+                <input type="text" class="form-control" id="validationCustom07" required />
               </div>
             </div>
           </div>
@@ -217,57 +176,76 @@
 
       <div class="col-md-7 mt-2">
         <!--column md-7 start-->
-        <p>
-          <i>
-            <font color="red">*Marked field are mandatory!</font>
-          </i>
-        </p>
+        <h5 class="text-center text-success">
+          <i class="fa fa-users fa-1x"></i> Parents Details
+        </h5>
         <div class="card">
-          <div class="card-header">Parents Details</div>
+          <div class="card-header text-success"  style="background-color: #71ffac">Parents Details</div>
           <div class="card-body">
             <div class="row form-group">
               <div class="col-md-6">
-                <label>Father Name <font color="red">*</font></label>
-                <input type="text" class="form-control" />
+                <label  for="validationCustom08" class="form-label">Father Name </label>
+                <input type="text" class="form-control" id="validationCustom08" required />
               </div>
               <div class="col-md-6">
-                <label>Mother Name</label>
-                <input type="text" class="form-control" />
-              </div>
-            </div>
-
-            <div class="row form-group">
-              <div class="col-md-6">
-                <label>Mobile No.<font color="red">*</font></label>
-                <input type="text" class="form-control" />
-              </div>
-              <div class="col-md-6">
-                <label>Parents Occupation</label>
-                <input type="text" class="form-control" />
+                <label for="validationCustom09" class="form-label">Mother Name</label>
+                <input type="text" class="form-control" id="validationCustom09" required/>
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-6">
-                <label>Aadhar ID No.</label>
-                <input type="text" class="form-control" />
+                <label for="validationCustom013" class="form-label">Mobile No.</label>
+                <input type="text" class="form-control" id="validationCustom13" required />
               </div>
               <div class="col-md-6">
+                <label for="validationCustom018" class="form-label">Parents Occupation</label>
+                <input type="text"class="form-control" id="validationCustom18" required />
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-md-4 mt-3 p-1">
+                <label for="validationCustom14" class="form-label">Caste</label>
+                <select class="form-control" class="form-select" id="validationCustom14" required>
+                  <option selected disabled value="">Choose</option>
+                  <option>SC</option>
+                  <option>ST</option>
+                  <option>OBC</option>
+                  <option>OTHERS</option>
+                </select>
+              </div>
+
+              <div class="col-md-4 mt-3 p-1">
+                <label for="validationCustom015" class="form-label">Country</label>
+                <input type="text" class="form-control" id="validationCustom15" required />
+              </div>
+
+              <div class="col-md-4 mt-3 p-1">
+                <label for="validationCustom016" class="form-label" >State</label>
+                <input type="text"class="form-control" id="validationCustom16" required  />
+              </div>
+
+              <div class="col-md-6 mt-4">
+                <label for="validationCustom017" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationCustom17" required   />
+              </div>
+              <div class="col-md-6 mt-3 p-2">
+                <label for="validationCustom10" class="form-label">Nationality</label>
+                <input type="text" class="form-control" id="validationCustom10" required/>
+              </div>
+              <div class="col-md-6 mt-4">
                 <label>Document</label>
-                <input type="file" className="form-control" />
+                <input type="file"  class=" form-control-md" />
               </div>
+
             </div>
 
-            <div class="row form-group">
-              <div class="col-lg-12">
-                <label>Address <font color="red">*</font> </label>
-                <textarea class="form-control p-4"></textarea>
-              </div>
-            </div>
+          
 
             <div class="text-center">
-              <button class="btn btn-primary text-light">Send Message</button>
-              <button class="btn btn-warning text-light">Clear All</button>
+              <button class="btn btn-success  btn-block text-light">Submit</button>
+            
             </div>
           </div>
         </div>
@@ -276,13 +254,15 @@
     </div>
     <!--row start-->
   </div>
+</form>
+  <hr/>
   <!--container end-->
-
+  
   <!--Contact Form End-->
 
   <!--Footer Start-->
 
-  <div class="container-fluid justify-content-center px-0">
+  <div class="container-fluid justify-content-center px-0 mt-3">
     <footer>
       <div class="row justify-content-around mb-0 pt-5 mx-4">
         <div class="col-xl-2 col-md-4 order-xl-1 order-4 mr-xl-0 my-auto">
@@ -405,5 +385,10 @@
   </div>
   <!--Footer End-->
 </body>
+<script src="app.js"></script>
+
+<script>
+  document.getElementById("myForm").reset();
+</script>
 
 </html>
