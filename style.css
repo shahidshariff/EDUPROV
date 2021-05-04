@@ -137,7 +137,7 @@ h6 {
   bottom:30px;
   left:30px;
   background:#9b32a8;
-  max-width: 365px;
+  max-width: 300px;
   border-radius: 15px;
   padding:25px 25px 30px 25px;
   text-align: center;
@@ -149,7 +149,7 @@ h6 {
   transition: all 0.3 ease;
 }
 .wrapper img{
-  max-width: 70px;
+  max-width: 55px;
 }
 .wrapper .content{
   margin-top:10px;
