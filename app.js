@@ -40,14 +40,10 @@ $(document).ready(function(){
         });
     });
 
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
     'use strict'
-  
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation')
   
-    // Loop over them and prevent submission
     Array.prototype.slice.call(forms)
       .forEach(function (form) {
         form.addEventListener('submit', function (event) {
@@ -60,85 +56,5 @@ $(document).ready(function(){
         }, false)
       })
   })()
-
-    
-
-
-  
-
-
-
-
-
-
-// Video card 
-/*$(".video-play").on('click', function(e) {
-    e.preventDefault(); 
-    var vidWrap = $(this).parent(),
-        iframe = vidWrap.find('.video iframe'),
-        iframeSrc = iframe.attr('src'),
-        iframePlay = iframeSrc += "?autoplay=1";
-    vidWrap.children('.video-thumbnail').fadeOut();
-    vidWrap.children('.video-play').fadeOut();
-    vidWrap.find('.video iframe').attr('src', iframePlay);
-
-
-});
-//Search Input
-const searchWrapper = document.querySelector(".search-input");
-const inputBox = searchWrapper.querySelector("input");
-const suggBox = searchWrapper.querySelector(".autocom-box");
-const icon = searchWrapper.querySelector(".icon");
-let linkTag = searchWrapper.querySelector("a");
-let webLink;
-
-inputBox.onkeyup = (e)=>{
-    let userData = e.target.value; 
-    let search = [];
-    if(userData){
-        icon.onclick = ()=>{
-            webLink = "https://www.google.com/search?q=" + userData;
-            linkTag.setAttribute("href", webLink);
-           // console.log(webLink);
-            linkTag.click();
-        }
-        search = suggestions.filter((data)=>{
-            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
-        });
-        search = search.map((data)=>{
-            return data = '<li>'+ data +'</li>';
-        });
-        searchWrapper.classList.add("active"); 
-        showSuggestions(search);
-        let allList = suggBox.querySelectorAll("li");
-        for (let i = 0; i < allList.length; i++) {
-            allList[i].setAttribute("onclick", "select(this)");
-        }
-    }else{
-        searchWrapper.classList.remove("active");
-    }
-}
-
-function select(element){
-    let selectData = element.textContent;
-    inputBox.value = selectData;
-    icon.onclick = ()=>{
-        webLink = "https://www.google.com/search?q=" + selectData;
-        linkTag.setAttribute("href", webLink);
-        linkTag.click();
-    }
-    searchWrapper.classList.remove("active");
-}
-
-function showSuggestions(list){
-    let listData;
-    if(!list.length){
-        userValue = inputBox.value;
-        listData = '<li>'+ userValue +'</li>';
-    }else{
-        listData = list.join('');
-    }
-    suggBox.innerHTML = listData;
-} */
 
 
