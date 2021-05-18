@@ -53,7 +53,7 @@ h6 {
 
 #services .btn-primary {
 	color: #fff;
-	background-color: #343A40;
+	background-color: #0e1011;
 	border: none;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -91,13 +91,17 @@ h6 {
 	border-radius: .25rem;
 	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 	margin-bottom: 30px;
+	border-radius: 16px;
+	background: linear-gradient(145deg, #e6e6e6, #ffffff);
+	box-shadow:  19px 19px 22px #787878,
+				 -19px -19px 22px #ffffff;
 }
 
 .card-items .card .card-body i {
 	border-radius: 6px;
 	font-size: 31px;
-	color: #343A40;
-	background-color: #ff57221c;
+	color: #9B32A8;
+	background-color: #9a32a836;
 	width: 50px;
 	height: 50px;
 	display: flex;
@@ -149,6 +153,13 @@ h6 {
   line-height: inherit;
   }
 
+  #service-font{
+	  font-size: 15px !important;
+	  color:#655e66f3 !important;
+  }
+  #card-font{
+	  color: #506372 !important;
+  }
  
   
 

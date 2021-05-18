@@ -160,7 +160,9 @@ small {
     transition: all .25s cubic-bezier(.645, .045, .355, 1);
     border-radius: 5px;
     z-index: 99;
-    text-decoration: none
+    text-decoration: none;
+    
+    
 }
 
 .col-md-4 {
@@ -176,6 +178,7 @@ small {
     background-color: #fff;
     -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, .1);
     box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+    
 }
 
 .icon-box .content .title.fz-20 {
