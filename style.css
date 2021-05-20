@@ -1,3 +1,12 @@
+::-webkit-scrollbar{
+  width:5px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top , left bottom, from(#9406e6), to(#da1b60));
+  box-shadow: inset 2px 2px 2px rgba(74, 255, 2, 0.877), inset -2px -2px -2px rgba(0,0,0,0.25);
+}
 html {
   scroll-behavior: smooth;
 
@@ -370,7 +379,9 @@ p {
   text-decoration: none;
   }
 #heading{
-  background: -webkit-linear-gradient(rgb(217, 179, 243), rgb(109, 32, 211));
+  background: -webkit-linear-gradient(rgb(217, 179, 243), rgb(132, 47, 243));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
