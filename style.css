@@ -382,11 +382,6 @@ p {
   #footer-url{
   text-decoration: none;
   }
-#heading{
-  background: -webkit-linear-gradient(rgb(217, 179, 243), rgb(132, 47, 243));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .pt-100 {
 	padding-top: 100px;
