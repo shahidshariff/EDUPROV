@@ -560,3 +560,9 @@ h6 {
 #marquee{
   font-weight: bold;
 }
+#telephone{
+   text-decoration: none;
+   color:wheat;
+   font-weight: bold;
+  
+}
