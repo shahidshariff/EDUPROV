@@ -253,3 +253,15 @@ p:last-child {
     padding:25px;
     margin:1%;
 }
+
+#google_translate_element{
+    float:right;
+    margin-top:-40px;
+}
+@media screen and (min-width:1px) and (max-width:768px){
+    #google_translate_element{
+        float:right;
+        margin-top:-40px;
+    }
+
+  }
