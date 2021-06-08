@@ -59,6 +59,18 @@
     })(window, document, "clarity", "script", "6wazy9nehy");
   </script>
 
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "812ba3af-3755-4239-89cc-7c7ba9e35ffb",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 </head>
 
 <body class="bg-light">
