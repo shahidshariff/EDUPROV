@@ -65,7 +65,7 @@
      
 
   <!--Contact Form Start-->
-  <form class="row g-3 needs-validation" novalidate>
+  <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/5359a08cb590cd938f22d2fee7a2c13f" method="POST">
   <div class="container mt-5">
     <!--container start-->
     <div class="row">
@@ -84,7 +84,7 @@
             <div class="row form-group">
               <div class="col-lg-12">
                 <label for="validationCustom01" class="form-label">Student Name </label>
-                <input type="text"  class="form-control" id="validationCustom01"  required/>
+                <input type="text"  class="form-control" id="validationCustom01"   name="name" required/>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
@@ -93,11 +93,11 @@
             <div class="row form-group">
               <div class="col-lg-6">
                 <label for="validationCustom02" class="form-label">Email</label>
-                <input type="email" class="form-control" id="validationCustom02"  required />
+                <input type="email" class="form-control" id="validationCustom02"   name="email" required />
               </div>
               <div class="col-lg-6">
                 <label for="validationCustom03" class="form-label">Mobile No</label>
-                <input type="number" class="form-control" id="validationCustom03" required />
+                <input type="number" class="form-control" id="validationCustom03"  name="mobile" required />
                 <div class="invalid-feedback">
                   Please provide a valid Number.
                 </div>
@@ -106,7 +106,7 @@
 
             <div class="row form-group">
               <div class="col-md-12" for="validationCustom04" class="form-label">
-                <input type="date" class="form-control" id="validationCustom04" required/>
+                <input type="date" class="form-control" id="validationCustom04" name="dob" required/>
                 <div class="invalid-feedback">
                   Please Choose your DOB
                 </div>
@@ -114,7 +114,7 @@
 
               <div class="col-md-6 mt-4">
                 <label for="validationCustom11" class="form-label">Gender</label>
-                <select  class="form-control" class="form-select" id="validationCustom11" required>
+                <select  class="form-control" class="form-select" id="validationCustom11"  name="gender" required>
                   <option selected disabled value="">Choose</option>
                   <option>Male</option>
                   <option>Female</option>
@@ -127,15 +127,15 @@
               
               <div class="col-md-6 mt-3 p-2">
                 <label for="validationCustom05" class="form-label">Academic Details</label>
-                <input type="text"  class="form-control" id="validationCustom05" required />
+                <input type="text"  class="form-control" id="validationCustom05"  name="academics" required />
               </div>
               <div class="col-lg-6 mt-4">
                 <label for="validationCustom06" class="form-label">Extra Curricular Activities</label>
-                <input type="text" class="form-control" id="validationCustom06" required/>
+                <input type="text" class="form-control" id="validationCustom06"  name="activities" required/>
               </div>
               <div class="col-lg-6 mt-4">
                 <label for="validationCustom07" class="form-label">Preferred Course</label>
-                <input type="text" class="form-control" id="validationCustom07" required />
+                <input type="text" class="form-control" id="validationCustom07"  name="course" required />
               </div>
             </div>
           </div>
@@ -154,29 +154,29 @@
             <div class="row form-group">
               <div class="col-md-6">
                 <label  for="validationCustom08" class="form-label">Father Name </label>
-                <input type="text" class="form-control" id="validationCustom08" required />
+                <input type="text" class="form-control" id="validationCustom08"  name="fathername" required />
               </div>
               <div class="col-md-6">
                 <label for="validationCustom09" class="form-label">Mother Name</label>
-                <input type="text" class="form-control" id="validationCustom09" required/>
+                <input type="text" class="form-control" id="validationCustom09"  name="mothername" required/>
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-6">
                 <label for="validationCustom013" class="form-label">Mobile No.</label>
-                <input type="text" class="form-control" id="validationCustom13" required />
+                <input type="text" class="form-control" id="validationCustom13"  name="mobileno" required />
               </div>
               <div class="col-md-6">
                 <label for="validationCustom018" class="form-label">Parents Occupation</label>
-                <input type="text"class="form-control" id="validationCustom18" required />
+                <input type="text"class="form-control" id="validationCustom18"  name="occupation" required />
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-4 mt-3 p-1">
                 <label for="validationCustom14" class="form-label">Caste</label>
-                <select class="form-control" class="form-select" id="validationCustom14" required>
+                <select class="form-control" class="form-select" id="validationCustom14"  name="caste" required>
                   <option selected disabled value="">Choose</option>
                   <option>SC</option>
                   <option>ST</option>
@@ -187,29 +187,29 @@
 
               <div class="col-md-4 mt-3 p-1">
                 <label for="validationCustom015" class="form-label">Country</label>
-                <input type="text" class="form-control" id="validationCustom15" required />
+                <input type="text" class="form-control" id="validationCustom15"  name="country" required />
               </div>
 
               <div class="col-md-4 mt-3 p-1">
                 <label for="validationCustom016" class="form-label" >State</label>
-                <input type="text"class="form-control" id="validationCustom16" required  />
+                <input type="text"class="form-control" id="validationCustom16"  name="state" required  />
               </div>
 
               <div class="col-md-6 mt-4">
                 <label for="validationCustom017" class="form-label">City</label>
-                <input type="text" class="form-control" id="validationCustom17" required   />
+                <input type="text" class="form-control" id="validationCustom17"  name="city" required   />
               </div>
               <div class="col-md-6 mt-3 p-2">
                 <label for="validationCustom10" class="form-label">Nationality</label>
-                <input type="text" class="form-control" id="validationCustom10" required/>
+                <input type="text" class="form-control" id="validationCustom10"  name="nationality" required/>
               </div>
               <div class="col-md-6 mt-4">
                 <label>Document</label>
-                <input type="file"  class=" form-control-md" />
+                <input type="file"  class="form-control-md" />
               </div>
             </div>
             <div class="text-center">
-              <button class="btn btn-success  btn-block text-light">Submit</button>
+              <button class="btn btn-success  btn-block text-light" type="submit">Submit</button>
             
             </div>
           </div>
