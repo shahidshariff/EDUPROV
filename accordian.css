@@ -15,7 +15,7 @@
 #accordian-card {
   background: white;
   padding: 38px 36px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 4px;
   -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-#accordian-card h4 {
+#accordian-card h1 {
   font-family: var(--font-ibm-plex-sans);
   font-style: normal;
   font-weight: bold;
@@ -56,7 +56,7 @@
 }
 
 #accordian-card details.warning p {
-  list-style-type: corona-warning;
+  list-style-type: job-warning;
 }
 
 #accordian-card details.info {
@@ -66,7 +66,7 @@
 }
 
 #accordian-card details.info p {
-  list-style-type: corona-info;
+  list-style-type: job-info;
 }
 
 #accordian-card details.alert {
@@ -76,7 +76,7 @@
 }
 
 #accordian-card details.alert p {
-  list-style-type: corona-alert;
+  list-style-type: job-alert;
 }
 
 #accordian-card details summary, #accordian-card details p {
@@ -122,7 +122,7 @@
   display: list-item;
   cursor: default;
   margin-left: 3rem;
-  list-style-type: corona;
+  list-style-type: job;
 }
 
 #accordian-card details summary::before {
@@ -148,21 +148,21 @@
   content: url("data:image/svg+xml,%3Csvg width='100%' height='100%' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.6066 12H1.3934' stroke='%23202842' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 1.39343V22.6066' stroke='%23202842' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
 }
 
-@counter-style corona-warning {
+@counter-style job-warning {
   system: cyclic;
   symbols: 🧬 🧬 🧬 🧬;
   suffix: " ";
 }
 
-@counter-style corona-info {
+@counter-style job-info {
   system: cyclic;
   symbols: 🧬;
   suffix: " ";
 }
 
-@counter-style corona-alert {
-  system: fixed;
-  symbols: 🧬 🧬🧬 🧬 🧬;
+@counter-style job-alert {
+  system: cyclic;
+  symbols: 🧬 🧬 🧬 🧬 🧬;
   suffix: " ";
 }
 /*# sourceMappingURL=accordian.css.map */

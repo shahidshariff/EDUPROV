@@ -53,7 +53,7 @@
       background: var(--color-summary-1);
       border-left-color: var(--color-summary-1-highlight);
       p {
-        list-style-type: corona-warning;
+        list-style-type: job-warning;
       }
     }
     
@@ -62,7 +62,7 @@
       background: var(--color-summary-2);
       border-left-color: var(--color-summary-2-highlight);
       p {
-        list-style-type: corona-info;
+        list-style-type:job-info;
       }
     }
     
@@ -71,7 +71,7 @@
       background: var(--color-summary-3);
       border-left-color: var(--highlight);
       p {
-        list-style-type: corona-alert;
+        list-style-type: job-alert;
       }
     }
     
@@ -102,7 +102,7 @@
       display: list-item;
       cursor:default;
       margin-left:3rem;
-      list-style-type: corona;
+      list-style-type: job;
     }
     
     summary::before {
@@ -131,18 +131,18 @@
   }
 }
 
-@counter-style corona-warning {
+@counter-style job-warning {
   system: cyclic;
-  symbols: 🧼 🩺 👩🏻‍⚕️ 🚑;
+  symbols: 🧬 🧬 🧬 🧬;
   suffix: " ";
 }
-@counter-style corona-info {
+@counter-style job-info {
   system: cyclic;
   symbols: 🧬;
   suffix: " ";
 }
-@counter-style corona-alert {
-  system: fixed;
-  symbols: 💉 🩸 😷 🦠 🧫;
+@counter-style job-alert {
+  system: cyclic;
+  symbols: 🧬 🧬 🧬 🧬 🧬;
   suffix: " ";
 }
