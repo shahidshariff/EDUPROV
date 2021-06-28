@@ -10,8 +10,11 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("open");
 });
 
-/* 404 */
+/* Course list card */
 
+document.querySelectorAll(".projcard-description").forEach(function(box) {
+	$clamp(box, {clamp: 6});
+});
 
 
 
