@@ -105,12 +105,12 @@ nav{
   .section-services {
 	font-family: "Poppins", sans-serif;
 	color: #202020;
-	padding-top: 70px;
+  padding-top: 50px;
     padding-bottom: 10px;
 }
 
 .section-services .header-section {
-	margin-bottom: 34px;
+	margin-bottom: 30px;
 }
 
 .section-services .header-section .title {
