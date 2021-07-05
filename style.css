@@ -19,7 +19,7 @@ nav{
 .nav-links{
     display: flex;
     list-style: none;
-    width: 19%;
+    width: 18%;
     height:100%;
     justify-content: space-around;
     align-items: center;
@@ -141,7 +141,7 @@ nav{
     transform: translateX(30px);
 	width: 10px;
 	height: 3px;
-	background-color: #BD6B73;
+	background-color: #d69f29;
     border-radius: 3px;
 }
 

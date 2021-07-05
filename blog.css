@@ -31,7 +31,7 @@ nav{
 .nav-links{
     display: flex;
     list-style: none;
-    width: 19%;
+    width: 17%;
     height:100%;
     justify-content: space-around;
     align-items: center;
