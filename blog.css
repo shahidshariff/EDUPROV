@@ -124,3 +124,10 @@ nav{
 	margin:1%;
 }
 
+#links{
+  text-decoration: none;
+  color:white;
+}
+#footer-bold-label{
+  font-weight: bold;
+}

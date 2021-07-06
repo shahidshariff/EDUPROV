@@ -89,7 +89,7 @@ nav{
    
     .nav-links.open {
       clip-path: circle(1000px at 90% -10%);
-      -webkit-clip-path: circle(2207px at 55% -10%);;
+      -webkit-clip-path: circle(2207px at 45% -10%);;
       pointer-events: all;
  
     }
@@ -411,3 +411,10 @@ nav{
   margin-bottom: 40px;
 }
   
+#links{
+  text-decoration: none;
+  color:white;
+}
+#footer-bold-label{
+  font-weight: bold;
+}
