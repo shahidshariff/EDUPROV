@@ -950,7 +950,7 @@ nav {
 }
 
 .testimonial-bg {
-  border: 10px solid #be6c73;
+  /* border: 10px solid #be6c73; */
   padding: 80px 70px;
   left: 200px;
   text-align: center;
@@ -1050,6 +1050,7 @@ nav {
   width: 70px;
   height: 30px;
   line-height: 22px;
+
   border-radius: 50%;
   background: #be6c73 !important;
   opacity: 1;
@@ -1071,7 +1072,7 @@ nav {
 
 @media only screen and (max-width: 767px) {
   .testimonial-bg {
-    border: 10px solid #be6c73;
+    /* border: 10px solid #be6c73; */
     padding: 80px 70px;
     left: 0;
     text-align: center;
