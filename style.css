@@ -527,8 +527,8 @@ h6 {
 
 nav {
   height: 10vh;
-  background-color: #bd6b73;
-  background-image: linear-gradient(to left, #bd6b73 0%, #bd6b73 74%);
+  background-color: #496bc4;
+  background-image: linear-gradient(to left, #496bc4 0%, #496bc4 74%);
 }
 
 .nav-links {
@@ -589,8 +589,8 @@ nav {
 
   .nav-links {
     position: fixed;
-    background-color: #bd6b73;
-    background-image: linear-gradient(to left, #bd6b73 0%, #bd6b73 74%);
+    background-color: #496bc4;
+    background-image: linear-gradient(to left, #496bc4 0%, #496bc4 74%);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -610,7 +610,7 @@ nav {
 
 #banner-style {
   border-radius: 10px !important;
-  box-shadow: 5px 15px 45px #e68d96 !important;
+  box-shadow: 5px 15px 45px #657fc2 !important;
 }
 
 .section-services {
@@ -640,7 +640,7 @@ nav {
   transform: translateX(-50%);
   width: 50px;
   height: 3px;
-  background-color: #bd6b73;
+  background-color: #496bc4;
   border-radius: 3px;
 }
 
@@ -682,8 +682,8 @@ nav {
   transform: translate(40%, -40%);
   width: 150px;
   height: 150px;
-  background-color: #bd6b73;
-  border: 6px solid #8a555a;
+  background-color: #496bc4;
+  border: 6px solid #374d85;
   border-radius: 50%;
   opacity: 0.5;
   z-index: 10;
@@ -704,7 +704,7 @@ nav {
   margin-bottom: 26px;
   width: 70px;
   height: 70px;
-  background-color: #bd6b73;
+  background-color: #496bc4;
   border-radius: 5px;
   line-height: 70px;
   text-align: center;
@@ -715,7 +715,7 @@ nav {
 
 .section-services .single-service:hover .icon {
   background-color: #fff;
-  color: #bd6b73;
+  color: #657fc2;
 }
 
 .section-services .single-service .title {
@@ -759,7 +759,7 @@ nav {
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #bd6b73;
+  background-color: #496bc4;
   transition: background-color 0.3s;
 }
 
@@ -1053,7 +1053,7 @@ nav {
   line-height: 22px;
 
   border-radius: 50%;
-  background: #be6c73 !important;
+  background: #496bc4 !important;
   opacity: 1;
   padding: 0;
 }

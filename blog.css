@@ -27,8 +27,8 @@
 
 nav{
     height:10vh;
-    background-color: #BD6B73;
-    background-image: linear-gradient(to left, #BD6B73 0%, #BD6B73 74%);
+    background-color: #496bc4;
+    background-image: linear-gradient(to left, #496bc4 0%, #496bc4 74%);
 }
 .nav-links{
     display: flex;
@@ -89,8 +89,8 @@ nav{
   
     .nav-links {
       position: fixed;
-      background-color: #BD6B73;
-      background-image: linear-gradient(to left, #BD6B73 0%, #BD6B73 74%);
+      background-color: #496bc4;
+      background-image: linear-gradient(to left, #496bc4 0%, #496bc4 74%);
       height: 100vh;
       width: 100%;
       flex-direction: column;
@@ -111,8 +111,8 @@ nav{
   }
 
 .banner{
-      background-color: #BD6B73;
-      background-image: linear-gradient(to left, #BD6B73 0%, #BD6B73 74%); 
+      background-color: #496bc4;
+      background-image: linear-gradient(to left, #496bc4 0%, #496bc4 74%); 
       width: 100%;
       height: 350px;
       padding-top:30px;
