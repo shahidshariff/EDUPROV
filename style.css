@@ -200,10 +200,11 @@ h6 {
   #logo img {
     position: absolute;
     left: 20px;
-    top: 5px;
+    top: 12px;
     width: 160px;
     z-index: 1;
   }
+ 
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
