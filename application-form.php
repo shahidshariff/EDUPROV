@@ -41,7 +41,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"rel="stylesheet"/>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-  
+     <!-- Prevent form from Submitting Twice -->
+     <script>
+      if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+      }
+      </script>
   </head>
 
 <body>
@@ -147,7 +152,7 @@
             } else {
               $response = array(
                 "status" => "alert-success",
-                "message" => "Message Sent Successfully !."
+                "message" => "Application Form Submitted Successfully !."
               );              
             }
      
@@ -324,14 +329,10 @@
             maxlength: 100
           },
           fathername:{
-            required: true,
-            minlength: 10,
-            maxlength: 50
+            required: true, 
           },
           mothername:{
             required: true,
-            minlength: 10,
-            maxlength: 50
           },
           parentsno:{
             required: true,
@@ -341,18 +342,12 @@
           },
           motherocp:{
             required: true,
-            minlength: 10,
-            maxlength: 100,
           },
           fatherocp:{
             required: true,
-            minlength: 10,
-            maxlength: 100,
           },
           caste:{
             required: true,
-            minlength: 10,
-            maxlength: 50,
           },
           country:{
             required: true,
@@ -417,14 +412,10 @@
             maxlength: "must not be more than 100 characters long"
           },
           fathername: {
-            required: "Please enter your father's name ",
-            minlength: "must be min 10 characters long",
-            maxlength: "must not be more than 50 characters long"
+            required: "Please enter your father's name "
           },
           mothername: {
-            required: "Please enter your mother's name ",
-            minlength: "must be min 10 characters long",
-            maxlength: "must not be more than 50 characters long"
+            required: "Please enter your mother's name "
           },
           parentsno: {
             required: "Please provide a mobile no",
@@ -432,19 +423,13 @@
             maxlength: "Phone number must not be more than 10 characters long"
           },
           motherocp: {
-            required: "Please enter your mother's occupation",
-            minlength: "must be min 10 characters long",
-            maxlength: "must not be more than 100 characters long"
+            required: "Please enter your mother's occupation"
           },
           fatherocp: {
-            required: "Please enter your father's occupation",
-            minlength: "must be min 10 characters long",
-            maxlength: "must not be more than 100 characters long"
+            required: "Please enter your father's occupation"
           },
           caste: {
-            required: "Please enter your caste ",
-            minlength: "must be min 10 characters long",
-            maxlength: "must not be more than 50 characters long"
+            required: "Please enter your caste "
           },
           country: {
             required: "Please enter your country ",
