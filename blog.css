@@ -143,8 +143,8 @@ input[type=text]{
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
    border-radius: 20px;
-   border: 1px solid #889196;
-   color: #a0d18c;
+   border: 1px solid #889196 ;
+   color: #889196 ;
    width: 250px;
    height: 40px;
    padding-left: 10px;
@@ -152,7 +152,7 @@ input[type=text]{
   
 input[type=text]:focus {
    outline: none;
-   border: 1px solid #a0d18c;
+   border: 1px solid #889196 ;
    color: #2d9fd9;
 }
 .selectWrapper{
@@ -178,10 +178,30 @@ input[type=text]:focus {
    color: #a0d18c;
    width: 540px;
    padding-left: 10px;
+  
+}
+.textarea:focus{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 10px;
+   border: 1px solid #889196;
+   color: #a0d18c;
+   width: 540px;
+   padding-left: 10px;
+  
 }
 
 .contact-form-location{
   color:rgb(124, 122, 122) !important;
+}
+textarea:focus, input:focus{
+  outline: 0;
+  
+}
+
+*:focus {
+  outline: 0;
+ 
 }
 
 @media screen and (min-width:1px) and (max-width:768px){
@@ -189,18 +209,18 @@ input[type=text]:focus {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
      border-radius: 20px;
-     border: 1px solid #889196;
-     color: #a0d18c;
+     border: 1px solid #889196 !important;
+     color: #889196  !important;
      width: 250px;
      height: 40px;
      padding-left: 10px;
-     margin-left: 110px;
+     margin-left: 90px;
     }
     
   input[type=text]:focus {
      outline: none;
-     border: 1px solid #a0d18c;
-     color: #2d9fd9;
+     border: 1px solid #889196 !important;
+     color: #889196;
   }
   .selectWrapper{
     border-radius: 20px;
@@ -208,7 +228,7 @@ input[type=text]:focus {
     overflow: hidden;
     background: #cccccc;
     border: 1px solid #889196;
-    margin-left: 110px;
+    margin-left: 90px;
     margin-top: 10px;
   }
   .selectBox{
@@ -223,17 +243,92 @@ input[type=text]:focus {
     -moz-border-radius: 20px;
      border-radius: 10px;
      border: 1px solid #889196;
-     color: #a0d18c;
+     color: #889196;
      width: 300px;
      padding-left: 10px;
-     margin-left: 90px;
+     margin-left: 70px;
+     outline: 0;
+    
   }
+  textarea:focus, input:focus{
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
   .button-radius{
     margin-left: 60px;
   }
 
   .contact-form-image{
     display: none;
+  }
+  
+}
+@media screen and (min-width:769px) and (max-width:1100px){
+  input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #889196 !important;
+     color: #889196  !important;
+     width: 450px;
+     height: 40px;
+     padding-left: 10px;
+     margin-left: 90px;
+    }
+    
+  input[type=text]:focus {
+     outline: none;
+     border: 1px solid #889196 !important;
+     color: #889196;
+  }
+  .selectWrapper{
+    border-radius: 20px;
+    display: inline-block;
+    overflow: hidden;
+    background: #cccccc;
+    border: 1px solid #889196;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+  .selectBox{
+    width: 450px;
+    height:40px;
+    border: 0px;
+    outline: none;
+    color:#616466;
+  }
+  .textarea{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 10px;
+     border: 1px solid #889196;
+     color: #889196;
+     width: 450px;
+     padding-left: 10px;
+     margin-left: 90px;
+     outline: 0;
+    
+  }
+  textarea:focus, input:focus{
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+  .button-radius{
+    margin-left: 140px;
+  }
+
+  .contact-form-image{
+    display: none;
+  }
+
+  .input-right{
+    margin-left: 50px;
   }
   
 }

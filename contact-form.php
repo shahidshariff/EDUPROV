@@ -126,28 +126,28 @@
         <div class="row">
            <div class="col-md-12 text-center">
                <h5>Have Some Questions ?</h5>
-               <a href="tel:+91 80 25591146"> <span ><i class="fas fa-mobile"></i> +91 80 25591146</span></a>
+               <h6>Drop a message our counselor will get back to you </h6>
            </div>
-           <div class="col-md-6 mt-4">
+           <div class="col-md-6 mt-5">
                <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6 input-right">
                     <div class="form-group mb-3">
                       <input type="text" placeholder="Name" name="name" class="form-control" id="name"/>
                      </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 input-right">
                     <div class="form-group mb-3">
                       <input type="text" placeholder="Mobile" name="mobile" class="form-control" id="mobile"/>
                      </div>
                   </div>
                </div>
                <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 input-right">
                   <div class="form-group mb-3">
                     <input type="text" placeholder="Email ID" name="email" class="form-control" id="email"  />
                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 input-right">
                   <div class="selectWrapper">
                     <select class="selectBox" name="enquiry" id="enquiry" >
                         <option>Choose...</option>
@@ -158,7 +158,7 @@
                 </div>
                 </div>
              </div>
-             <div class="form-group mt-3">
+             <div class="form-group mt-3 input-right">
               <textarea class="textarea " placeholder="Message"  rows="5" name="message" id="message"  ></textarea>
              </div>
              <div class="form-group button-radius">
@@ -188,7 +188,7 @@
             </div>
           </div>
            </div>
-           <div class="col-md-6">
+           <div class="col-md-6 mt-5">
             <img src="/images/contact-form.svg" class="img-fluid contact-form-image" title="contact-form-banner" alt="contact-form-banner"/>
            </div>
         </div>
