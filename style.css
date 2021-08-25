@@ -124,13 +124,6 @@ h6 {
   margin-bottom: 15px;
 }
 
-.bootstrap-nav {
-  margin: 0;
-  font-weight: 700;
-  font-family: Poppins, sans-serif;
-  font-display: swap;
-}
-
 #logo img {
   position: absolute;
   left: 20px;
@@ -526,46 +519,48 @@ h6 {
   font-size: 18px;
 }
 
-nav {
-  height: 10vh;
+nav{
+  height:10vh;
   background-color: #496bc4;
   background-image: linear-gradient(to left, #496bc4 0%, #496bc4 74%);
 }
-
-.nav-links {
+.nav-links{
   display: flex;
   list-style: none;
-  width: 24%;
-  height: 100%;
+  width: 48%;
+  height:100%;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
+  font-weight: bold;
 }
-
-.nav-links li a {
-  color: white;
+.nav-links li a{
+  color:white;
   text-decoration: none;
   font-size: 16px;
 }
 
-.nav-links li a :hover {
-  color: orange;
+.nav-links li a :hover{
+  color:orange;
   text-decoration: none;
   font-size: 16px;
 }
-
-.logo {
-  color: rgb(250, 250, 250);
+.logo{
+  color:rgb(250, 250, 250);
   text-transform: uppercase;
-  margin-top: -55px;
-  margin-left: 20px;
+  margin-top:-55px;
+  margin-left:20px;
   letter-spacing: 5px;
   font-size: 16px;
 }
 
-#logo img {
-  margin-top: 1px;
+
+#logo img{
+  margin-top:1px;
+
+
 }
+
 
 @media screen and (max-width: 1200px) {
   .line {
@@ -1071,6 +1066,8 @@ nav {
 .owl-next:before {
   content: "\f105";
 }
+
+
 
 @media only screen and (max-width: 767px) {
   .testimonial-bg {
