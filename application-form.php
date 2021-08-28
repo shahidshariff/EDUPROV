@@ -25,19 +25,19 @@
       content="Student Application Form" />
     <meta name="twitter:image" content="#" />
     <meta name="twitter:url" content="https://twitter.com/eduprov" />
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" alt="Edurpov Logo" title="Eduprov logo" />
-    <link rel="apple-touch-icon" href="/images/favicon.png" alt="Edurpov Logo" title="Eduprov logo"  >
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"  />
+    <link rel="apple-touch-icon" href="/images/favicon.png"  >
     <meta name="author" content="thephotogenicbug">
     <link rel="stylesheet" href="blog.css" />
     <link rel="stylesheet" href="accordian.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
      <!-- Prevent form from Submitting Twice -->
@@ -486,196 +486,193 @@
   
   <footer class="page-footer font-small bg-dark pt-4 mt-4">
 
-      <!-- Footer Links -->
-      <div class="container text-left text-md-left">
-    
-        <!-- Footer links -->
-        <div class="row text-left text-md-left mt-3 pb-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Medical</label>
-            <p>
-              <a id="links" href="https://eduprov.com/mbbs-course.html">MBBS</a>
-            </p> 
-            <p>
-              <a id="links" href="https://eduprov.com/bds-course.html">BDS</a>
-            </p> 
-            <p>
-              <a id="links" href="https://eduprov.com/bpt-course.html">BPT</a>
-            </p> 
-             <hr style="color:gray"/>
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Engineering</label>
-            <p>
-              <a id="links" href="https://eduprov.com/btech-computer-science-engineering.html">B.Tech CS</a>
-            </p> 
-            <p>
-              <a id="links" href="https://eduprov.com/btech-it-course.html">B.Tech IT</a>
-            </p> 
-            <p>
-              <a id="links" href="https://eduprov.com/btech-in-eee.html">B.Tech EEE</a>
-            </p>
-            <hr style="color:gray"/> 
-             <label class="text-uppercase mb-4 fw-bold lh-4 text-white course-label">MBA</label>
-             <p>
-              <a id="links" href="https://eduprov.com/finance-management.html">Finance Management</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/retail-management-course.html">Retail Management</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/human-resource-course.html">Human Resources</a>
-            </p> 
-          </div>
-          <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Para Medical </label>
-             <p>
-              <a id="links" href="https://eduprov.com/bsc-nuro-course.html">BSc Nuro</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/bsc-nursing-course.html">BSc Nursing</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/b-pharm-course.html">B.Pharm</a>
-            </p> 
-            <hr style="color:gray"/> 
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Technical</label>
-            <p>
-              <a id="links" href="https://eduprov.com/bsc-computer-course.html">BSc.CS</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/bca-course.html">BCA</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/mca-course.html">MCA</a>
-            </p>
-            <hr style="color:gray"/> 
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Law </label>
-            <p>
-              <a id="links" href="https://eduprov.com/llb-course.html">LLB</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/master-of-law-course.html">LLM</a>
-            </p>
-          </div>
-          <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Commerce</label>
-             <p>
-              <a id="links" href="https://eduprov.com/bcom-hons-course.html">B.Com(hons)</a>
-            </p>
-            <p>
-              <a id="links" href="">B.Com(Professional)</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/bba-course.html">BBA</a>
-            </p>
-            <hr style="color:gray"/> 
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Exam</label>
-            <p>
-              <a id="links" href="https://eduprov.com/kcet-exam-information.html">KCET</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/jee-exam-blog.html">JEE</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/neet-exam-blog.html">NEET</a>
-            </p>
-            <hr style="color:gray"/> 
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Education</label>
-            <p>
-             <a id="links" href="https://eduprov.com/bachelor-of-education-course.html">B.Ed</a>
-           </p>
-           <p>
-             <a id="links" href="https://eduprov.com/master-of-education-course.html">M.Ed</a>
-           </p>
-          </div>
-          <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Quick Links</label>
-            <p>
-              <a id="links" href="#aboutus">About</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/contact-form.php">Contact us</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/application-form.php">Application form</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/career-counseling.html">Career counseling</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/overseas-education.html">Overseas education</a>
-            </p>
-            <hr style="color:gray"/> 
-            <label class="text-uppercase mb-4 font-weight-bold text-white">Counseling</label>
-            <p>
-              <a id="links" href="https://eduprov.com/career-after-sslc.html">Career after 10th / SSLC</a>
-            </p>
-            <p>
-              <a id="links" href="https://eduprov.com/career-after-puc.html">Career after 12th / PUC</a>
-            </p>
-          </div>
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto  mt-1"></div>
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
-        </div>
-        <hr>
-        <!-- Grid row -->
-        <div class="row d-flex align-items-center">
-          <!-- Grid column -->
-          <div class="col-md-7 col-lg-8"
-            <!--Copyright-->
-            <p class="text-center text-md-left">Eduprov Educational Institute 2021 © Copyright :
-              <a href="https://www.thephotogenicbug.in">
-                <strong>thephotogenicbug</strong>
-              </a>
-            </p>
-          </div>
-          <!-- Grid column -->
-    
-          <!-- Grid column -->
-          <div class="col-md-5 col-lg-4 ml-lg-0">
-    
-            <!-- Social buttons -->
-            <div class="text-center text-md-right">
-              <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/eduprovinstitute/" class="btn btn-primary btn-rounded btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/eduprov" class="btn btn-info btn-rounded btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/" class="btn btn-secondary btn-rounded btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com/eduprov_education/" class="btn btn-danger btn-rounded btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-    
-          </div>
-          <!-- Grid column -->
-    
-        </div>
-        <!-- Grid row -->
-    
+<!-- Footer Links -->
+<div class="container text-left text-md-left">
+
+  <!-- Footer links -->
+  <div class="row text-left text-md-left mt-3 pb-3">
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Medical</label>
+      <p>
+        <a id="links" href="https://eduprov.com/mbbs-course.html">MBBS</a>
+      </p> 
+      <p>
+        <a id="links" href="https://eduprov.com/bds-course.html">BDS</a>
+      </p> 
+      <p>
+        <a id="links" href="https://eduprov.com/bpt-course.html">BPT</a>
+      </p> 
+       <hr style="color:gray"/>
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Engineering</label>
+      <p>
+        <a id="links" href="https://eduprov.com/btech-computer-science-engineering.html">B.Tech CS</a>
+      </p> 
+      <p>
+        <a id="links" href="https://eduprov.com/btech-it-course.html">B.Tech IT</a>
+      </p> 
+      <p>
+        <a id="links" href="https://eduprov.com/btech-in-eee.html">B.Tech EEE</a>
+      </p>
+      <hr style="color:gray"/> 
+       <label class="text-uppercase mb-4 fw-bold lh-4 text-white course-label">MBA</label>
+       <p>
+        <a id="links" href="https://eduprov.com/mba-banking-finance-course.html">Finance Management</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/retail-management-course.html">Retail Management</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/human-resource-course.html">Human Resources</a>
+      </p> 
+    </div>
+    <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Para Medical </label>
+       <p>
+        <a id="links" href="https://eduprov.com/bsc-nuro-course.html">BSc Nuro</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/bsc-nursing-course.html">BSc Nursing</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/b-pharm-course.html">B.Pharm</a>
+      </p> 
+      <hr style="color:gray"/> 
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Technical</label>
+      <p>
+        <a id="links" href="https://eduprov.com/bsc-computer-course.html">BSc.CS</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/bachelor-of-computer-application.html">BCA</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/mca-course.html">MCA</a>
+      </p>
+      <hr style="color:gray"/> 
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Law </label>
+      <p>
+        <a id="links" href="https://eduprov.com/llb-course.html">LLB</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/master-of-law-course.html">LLM</a>
+      </p>
+    </div>
+    <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Commerce</label>
+       <p>
+        <a id="links" href="https://eduprov.com/bachelor-of-commerce-honours.html">B.Com(hons)</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/bachelor-of-commerce-professional.html">B.Com(Professional)</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/bachelor-of-business-administration.html">BBA</a>
+      </p>
+      <hr style="color:gray"/> 
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Exam</label>
+      <p>
+        <a id="links" href="https://eduprov.com/kcet-exam-information.html">KCET</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/jee-exam-blog.html">JEE</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/neet-exam-blog.html">NEET</a>
+      </p>
+      <hr style="color:gray"/> 
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Education</label>
+      <p>
+       <a id="links" href="https://eduprov.com/bachelor-of-education-course.html">B.Ed</a>
+     </p>
+     <p>
+       <a id="links" href="https://eduprov.com/master-of-education-course.html">M.Ed</a>
+     </p>
+    </div>
+    <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Quick Links</label>
+      <p>
+        <a id="links" href="https://eduprov.com/contact-form.php">Contact us</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/application-form.php">Application form</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/admission-guidance.html">Admission Guidance</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/career-counseling.html">Career counseling</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/overseas-education.html">Overseas education</a>
+      </p>
+      <hr style="color:gray"/> 
+      <label class="text-uppercase mb-4 font-weight-bold text-white">Counseling</label>
+      <p>
+        <a id="links" href="https://eduprov.com/career-after-sslc.html">Career after 10th / SSLC</a>
+      </p>
+      <p>
+        <a id="links" href="https://eduprov.com/career-after-puc.html">Career after 12th / PUC</a>
+      </p>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto  mt-1"></div>
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1"></div>
+  </div>
+  <hr>
+  <!-- Grid row -->
+  <div class="row d-flex align-items-center">
+    <!-- Grid column -->
+    <div class="col-md-7 col-lg-8"
+      <!--Copyright-->
+      <p class="text-center text-md-left">Eduprov Educational Institute 2021 © Copyright :
+        <a href="https://www.thephotogenicbug.in">
+          <strong>thephotogenicbug</strong>
+        </a>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5 col-lg-4 ml-lg-0">
+
+      <!-- Social buttons -->
+      <div class="text-center text-md-right">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/eduprovinstitute/" class="btn btn-primary btn-rounded btn-sm rgba-white-slight mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/eduprov" class="btn btn-info btn-rounded btn-sm rgba-white-slight mx-1">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/" class="btn btn-secondary btn-rounded btn-sm rgba-white-slight mx-1">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/eduprov_education/" class="btn btn-danger btn-rounded btn-sm rgba-white-slight mx-1">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-      <!-- Footer Links -->
-    
-    </footer>
-    <!-- Footer -->
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+</div>
+<!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
 </body>
 <script src="app.js"></script>
 </html>
