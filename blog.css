@@ -189,3 +189,82 @@ position: relative;
 .course-structure{
   font-weight: bold;
 }
+
+.location{
+  display: flex;
+  margin: 1%;
+}
+.location-title{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.location-title-2{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.location-icon{
+  margin-top: -5px;
+}
+
+.call-icon{
+  margin-top:-5px;
+}
+
+.minnesota-icon{
+  margin-top: -20px;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.georgia-icon{
+  margin-top: -20px;
+}
+
+.usa-icon{
+  margin-top: -10px;
+}
+
+
+@media screen and (min-width:1px) and (max-width:968px){
+
+  
+.location{
+  display: flex;
+  margin: 1%;
+}
+.location-title{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.location-title-2{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.location-icon{
+  margin-top: 10px;
+}
+
+.call-icon{
+  margin-top:-5px;
+}
+
+.minnesota-icon{
+  margin-top:20px;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.georgia-icon{
+  margin-top:20px;
+}
+
+.usa-icon{
+  margin-top: -10px;
+}
+
+.email-icon-2{
+  margin-top: 30px;
+}
+}

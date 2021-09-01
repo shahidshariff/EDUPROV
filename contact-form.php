@@ -123,98 +123,288 @@
       </div>
     <?php }?>
 
-    <div class="container mt-1">
-      <div class="row">
-          <div class="col-md-12 text-center">
-             
-          </div>
-          <div class="col-md-3"></div>
-          <div class="col-md-6 mt-4">
-              <div class="row">
-                  <div class="col-md-6 ">
-                      <div class="form-group mb-3">
-                          <label class="label-title">Name</label><i class="text-danger">*</i><br/>
-                         <input type="text" class="form-control text-input"  name="name" placeholder="Name *" id="name" />
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                       <div class="form-group mb-3">
-                          <label class="label-title">Mobile </label><i class="text-danger">*</i><br/>
-                          <input type="text" class="form-control text-input" name="mobile" placeholder="Mobile *" id="mobile" />
-                       </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6 ">
-                      <div class="form-group mb-3">
-                          <label class="label-title">Email ID</label><i class="text-danger">*</i><br/>
-                         <input type="text" class="form-control  text-input" name="email" placeholder="Email ID *" id="email" />
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                       <div class="form-group mb-3 dropdown">
-                          <label class="label-title">Enquiry for </label><i class="text-danger">*</i><br/>
-                          <select  class="form-control  text-input" name="enquiry" id="enquiry">
-                              <option>Choose...</option>
-                              <option>Career Counseling</option>
-                              <option>Admission Guidance</option>
-                              <option>Overseas Education</option>
-                              <option>Admin</option>
-                              <option>HR</option>
-                          </select>
-                       </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12">
-                       <div class="form-group mb-3">
-                           <label  class="label-title">Message</label><i class="text-danger">*</i><br/>
-                          <textarea class="form-control"  rows="5" name="message" id="message" placeholder="Message *"></textarea>
-                       </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-12 text-center">
-                    <input class="btn btn-block btn-light" type="submit" name="send" value="Send Message" />
-                  </div>
-              </div>
-              
-          </div>
-          <div class="col-md-3"></div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <h6>Head Office (India)</h5>
-          <p class="text-justify"><i class="fas fa-map-pin"></i>
-            No 20 2nd Floor Lady Curzon Rd Santha Complex Shivaji Nagar Bengaluru Karnataka 560001
-          </p>
-          <p class="text-justify"><i class="fa fa-envelope"></i>
-           admin@eduprov.com
-          </p>
-          <p class="text-justify"><i class="fa fa-envelope"></i>
-            hr@eduprov.com
-           </p>
-          <p class="text-justify"><i class="fas fa-phone"></i>
-            +91 80 25591146
-          </p>
+            <form action="" name="contactForm" method="post" enctype="multipart/form-data">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12"></div>
 
-        </div>
-        <div class="col-md-6">
-          <h6>USA LOCATION</h5>
+                  <div class='col-md-4'>
+                   <div class="form-group mb-3">
+                     <label class="label-title">Name</label><i class="text-danger">*</i><br/>
+                    <input type="text" class="form-control text-input"  name="name" placeholder="Name *" id="name" />
+                 </div>
+                  </div>
+                  <div class='col-md-4'>
+                   <div class="form-group mb-3">
+                     <label class="label-title">Mobile </label><i class="text-danger">*</i><br/>
+                     <input type="text" class="form-control text-input" name="mobile" placeholder="Mobile *" id="mobile" />
+                  </div>
+                  </div>
+                  <div class='col-md-4'>
+                   <div class="form-group mb-3">
+                     <label class="label-title">Email ID</label><i class="text-danger">*</i><br/>
+                    <input type="text" class="form-control  text-input" name="email" placeholder="Email ID *" id="email" />
+                 </div>
+                  </div>
+              </div>
+              <div class="row">
+               <div class="col-md-12"></div>
+               <div class='col-md-4'>
+                 <div class="form-group mb-3 dropdown">
+                   <label class="label-title">Enquiry for </label><i class="text-danger">*</i><br/>
+                   <select  class="form-control  text-input" name="enquiry" id="enquiry">
+                       <option>Choose...</option>
+                       <option>Career Counseling</option>
+                       <option>Admission Guidance</option>
+                       <option>Overseas Education</option>
+                       <option>Job</option>
+                   </select>
+                </div>
+               </div>
+                
+               <div class='col-md-12'>
+                 <div class="form-group mb-3">
+                   <label  class="label-title">Message</label><i class="text-danger">*</i><br/>
+                  <textarea class="form-control"  rows="5" name="message" id="message" placeholder="Message *"></textarea>
+               </div>
+               </div>
+               <div class="row">
+                <div class="col-md-12 text-center">
+                  <input class="btn btn-block btn-light" type="submit" name="send" value="Send Message" />
+                </div>
+            </div>
+            <hr/>
+                <div class="row mt-4">
+                     <div class="col-md-12 text-center">
+                       <img src="images/india.png" height="50">
+                       <h6 class="mt-3">Head Office (INDIA)</h6>
+                     </div>
+                 </div>
+                  <div class="row text-center">
+                   <div class="col-md-6">
+                     <img src="images/placeholder.png" class="location-icon"  height="35">
+                     <h6 class="mt-3">
+                       No 20 2nd Floor Lady Curzon Rd Santha Complex, Lady Curzon Rd, Infantry Rd, Bengaluru Karnataka 560001
+                     </h6>
+                   </div>
+                   <div class="col-md-6">
+                     <img src="images/customer-service.png" class="location-icon" height="35">
+                     <h6 class="mt-3">+91 80 25591146</h6>
+                   </div>
+                  </div>
+   
+                   <div class="row mt-5 pt-3">
+                     <div class="col-md-12 text-center">
+                       <img src="images/united-states.png"  class="usa-icon" height="50">
+                       <h6 class="mt-3">Branch Office (USA)</h6>
+                     </div>
+                      
+                     <div class='row text-center mt-5'>
+                       <div class="col-md-4">
+                         <img src="images/placeholder.png" class="minnesota-icon" height="35">
+                         <h6  class="mt-3" >
+                           N.E Blaine Minnesota USA 55434
+                         </h6>
+                       </div>
+                       <div class="col-md-4">
+                         <img src="images/placeholder.png" class="minnesota-icon" height="35">
+                         <h6  class="mt-3" >
+                           Old Whittlesey Road Suite Columbus Georgia 31904, USA
+                         </h6>
+                       </div>
+                       <div class="col-md-4 ">
+                        <img src="images/placeholder.png" class="minnesota-icon" height="35">
+                        <h6  class="mt-3" >
+                          4939 Kevin Walker Dr, Montclair, Virginia 22025, USA
+                        </h6>
+                      </div>
+                     </div>
+                     <div class='row text-center mt-5'>
+                       <div class="col-md-12">
+                         <img src="images/customer-service.png" class="minnesota-icon" height="35">
+                         <h6  class="mt-3" >
+                           (+1) 651 967 7789
+                         </h6>
+                       </div>
+                     </div>
+   
+                      <div class="row mt-4">
+                        <div class="col-md-12 text-center">
+                          <img src="images/email.png" height="45" >
+                          <h6 class="mt-3">admin@eduprov.com</h6>
+                          <h6 class="mt-3">hr@eduprov.com</h6>
+                        </div>
+                      </div>
+                   </div>
+   
+                    
+                 </div>
+   
+                 
+                 </div>
+            </form>
+                <!-- <div class="col-md-12 text-center">
+                   <div class="row">
+                    <div class="col-md-4 text-center">
+                      <img src="images/india.png" height="50">
+                       <h6 class="mt-3">Head Office (INDIA)</h6>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="images/india-pin.png" class="location-icon" height="50">
+                      <h6 class="mt-3">
+                        No 20 2nd Floor Lady Curzon Rd Santha Complex Shivaji Nagar Bengaluru Karnataka 560001
+                      </h6>
+                     
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/call.svg" class="call-icon" height="60">
+                      <h6>+91 80 25591146</h6>
+                    </div>
+                   </div>
+                   <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                      <img src="images/email.svg" class="email-icon" height="40">
+                       <h6 class="mt-3"> admin@eduprov.com</h6>
+                       <h6 class="mt-3"> hr@eduprov.com</h6>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <img src="images/email.svg" class="email-icon-2" height="40">
+                       <h6 class="mt-3"> hr@eduprov.com</h6>
+                        <h6 class="mt-3"> hr@eduprov.com</h6>
+                    </div>
+                    <hr/>
+                    <div class="row mt-5 ">
+                      <div class="col-md-4 text-center">
+                        <img src="images/united-states.png"  class="usa-icon" height="50">
+                         <h6 class="mt-3">Branch Office (USA)</h6>
+                      </div>
+                      <div class="col-md-4 text-center">
+                        <img src="images/united-states-of-america.png" class="minnesota-icon" height="60">
+                        <h6  class="mt-3" >
+                          N.E Blaine Minnesota USA 55434
+                        </h6>
+                      </div>
+
+                      <div class="col-md-4 text-center">
+                        <img src="images/united-states-of-america.png" class="georgia-icon" height="60">
+                        <h6  class="mt-3" >
+                          Old Whittlesey Road Suite Columbus Georgia 31909
+                        </h6>
+                      </div>
+                     
+                     </div>
+                     <div class="row mt-5 ">
+                      <div class="col-md-4 text-center">
+                        <img src="images/united-states-of-america.png" class="minnesota-icon" height="60">
+                        <h6  class="mt-3" >
+                          N.E Blaine Minnesota USA 55434
+                        </h6>
+                      </div>
+
+                      <div class="col-md-4 text-center">
+                        <img src="images/call.svg" class="georgia-icon" height="60">
+                        <h6  class="mt-3" >
+                          (+1) 651 967 7789
+                        </h6>
+                      </div>
+                     
+                     </div>
+                      </div>
+                      </div>
+                   </div>
+                </div>
+          </div> -->
+         
+
+           
+     <!-- <form action="" name="contactForm" method="post" enctype="multipart/form-data">
+      <div class="container mt-1">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mt-4">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="form-group mb-3">
+                            <label class="label-title">Name</label><i class="text-danger">*</i><br/>
+                           <input type="text" class="form-control text-input"  name="name" placeholder="Name *" id="name" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                         <div class="form-group mb-3">
+                            <label class="label-title">Mobile </label><i class="text-danger">*</i><br/>
+                            <input type="text" class="form-control text-input" name="mobile" placeholder="Mobile *" id="mobile" />
+                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="form-group mb-3">
+                            <label class="label-title">Email ID</label><i class="text-danger">*</i><br/>
+                           <input type="text" class="form-control  text-input" name="email" placeholder="Email ID *" id="email" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                         <div class="form-group mb-3 dropdown">
+                            <label class="label-title">Enquiry for </label><i class="text-danger">*</i><br/>
+                            <select  class="form-control  text-input" name="enquiry" id="enquiry">
+                                <option>Choose...</option>
+                                <option>Career Counseling</option>
+                                <option>Admission Guidance</option>
+                                <option>Overseas Education</option>
+                                <option>Admin</option>
+                                <option>Job</option>
+                            </select>
+                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                         <div class="form-group mb-3">
+                             <label  class="label-title">Message</label><i class="text-danger">*</i><br/>
+                            <textarea class="form-control"  rows="5" name="message" id="message" placeholder="Message *"></textarea>
+                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                      <input class="btn btn-block btn-light" type="submit" name="send" value="Send Message" />
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-3"></div>
+        </div> -->
+        <!-- <div class="row mt-5">
+          <div class="col-md-6">
+            <h6>Head Office (India)</h5>
             <p class="text-justify"><i class="fas fa-map-pin"></i>
-              N.E Blaine Minnesota USA 55434
+              No 20 2nd Floor Lady Curzon Rd Santha Complex Shivaji Nagar Bengaluru Karnataka 560001
             </p>
-            <p class="text-justify"><i class="fas fa-map-pin"></i>
-              Old Whittlesey Road Suite Columbus Georgia 31909
+            <p class="text-justify"><i class="fa fa-envelope"></i>
+             admin@eduprov.com
             </p>
+            <p class="text-justify"><i class="fa fa-envelope"></i>
+              hr@eduprov.com
+             </p>
             <p class="text-justify"><i class="fas fa-phone"></i>
-              (+1) 651 967 7789
+              +91 80 25591146
             </p>
-        </div>
-      </div>
-      
-     
-  </div>
+  
+          </div>
+          <div class="col-md-6">
+            <h6>USA LOCATION</h5>
+              <p class="text-justify"><i class="fas fa-map-pin"></i>
+                N.E Blaine Minnesota USA 55434
+              </p>
+              <p class="text-justify"><i class="fas fa-map-pin"></i>
+                Old Whittlesey Road Suite Columbus Georgia 31909
+              </p>
+              <p class="text-justify"><i class="fas fa-phone"></i>
+                (+1) 651 967 7789
+              </p>
+          </div>
+        </div> -->
+    
 
      
 
