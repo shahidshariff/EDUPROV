@@ -185,3 +185,7 @@ position: relative;
   border-top:10px solid rgb(143, 142, 142);
 
 }
+
+.course-structure{
+  font-weight: bold;
+}
