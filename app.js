@@ -10,6 +10,7 @@ hamburger.addEventListener("click", () => {
 
 /* Testinomial slider */
 
+
 $(document).ready(function(){
   $("#testimonial-slider").owlCarousel({
       items:1,
