@@ -23,6 +23,8 @@ $(document).ready(function(){
   });
 });
 
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
 
 /* FAQ JS SCRIPT */
 const allVisiblePannels = document.querySelectorAll(".visible-pannel");
